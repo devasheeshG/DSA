@@ -1,5 +1,7 @@
 // https://youtu.be/CkXjf6_8DLU
 
+#include <stdio.h>
+
 int main(){
     int arr[5] = {5, 3, 2, 4, 1};
     int len = 5;
