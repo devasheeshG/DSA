@@ -16,4 +16,5 @@
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.out && $dir$fileNameWithoutExt",
         "python": "python -u",
     },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
 }
