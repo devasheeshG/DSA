@@ -8,8 +8,8 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "*.out": true,
-        "tempCodeRunnerFile.c" : true,
+        "**/*.out": true,
+        "**/tempCodeRunnerFile.c" : true,
     },
     "code-runner.executorMap": {
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.out && $dir$fileNameWithoutExt.out",
@@ -17,4 +17,8 @@
         "python": "python -u",
     },
     "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "stdlib.h": "c"
+    },
 }
